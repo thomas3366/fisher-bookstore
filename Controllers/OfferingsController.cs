@@ -22,9 +22,5 @@ namespace Fisher.Bookstore.Controllers
         {
             return View();
         }
-        public IActionResult Location()
-        {
-            return Content("This is the About controller's Location action.");
-        }
     }
 }
